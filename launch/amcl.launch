@@ -15,7 +15,7 @@
  		<param name="initial_pose_x" value="0.0"/>
 		<param name="initial_pose_y" value="0.0"/>
 		<param name="initial_pose_a" value="0.0"/>
-
+  		<rosparam file="$(find my_robot)/config/amcl_params.yaml" command="load" />
    </node>
 
 	<!-- Move Base -->
